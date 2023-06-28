@@ -1,0 +1,116 @@
+---
+title: "How to Write Proper Git Message"
+description: "Tips to write proper git messages"
+pubDate: 2021-12-21
+draft: false
+image: 
+    src: "https://res.cloudinary.com/fitnesslegion/image/upload/v1632474829/portfolio/writeProperGitMessage_cg1vge.jpg"
+    alt: "Propet Git Message"
+
+
+---
+
+
+<br />
+
+## **Introduction**
+
+<br />
+
+### **What is a commit message ?**
+
+A commit in GitHub is described as a saved change. A commit explains what changes you made to the project. It records progress and when you push your code to a remote repository(like GitHub, Bitbucket), these changes show up in remote and could mean any additions, deletions, or updates to the files stored in the repository.
+
+<br />
+
+### **Why are good commit messages Important ?** 
+
+<br />
+
+If you try to go to any random Git repository, the is a high chances that the commit messages are more or less a mess.
+
+![git_commit_1](/images/git_commit_1.png)
+
+<br />
+
+These commit messages are difficult to read and understand the motive behind the commits. Not all commit messages look like this though. If we go and check [The Linux kernel](https://rospy-ctrl.hashnode.dev/Link) and [Git ](https://rospy-ctrl.hashnode.dev/Link), they have some of the best written commit messages. The contributors of these repositories know that a well-written Git commit is the best way to communicate with the fellow developers about the various changes to the program.
+
+<br />
+
+1. 1.Good commit messages helps to speed up the reviewing process
+2. 2.It helps to write a good release note
+3. 3.Helps the future maintainer of the repo to understand why a particular change was made to the code and why a feature was added.
+
+<br />
+Bad commit create a vicious cycle: as the commit history is unstructured and inconsitent,one doesn't spend much time using or taking care of it. And because it doesn't get enough time, it remains unstructured and inconsistent. A projects long term success depends on its maintainability which depends on maintainer who depends on project's log.
+
+<br />
+
+A team should agree on a common convention that defines at least these things:
+
+<br />
+
+Style (grammar, punctuations, syntax), Content( information for the body of the message) and Metadata( issuing of tracking ID's, pull request numbers)
+
+<br />
+
+## **Commit Message Format**
+
+<br />
+
+*I am not saying that you have to follow this format to write git messages but having a format helps you to understand the structure of the message and makes it easy to write properly.*
+
+<br />
+
+It consist of three things: header, body and footer(optional).
+
+<br />
+
+#### **Header**
+
+<br />
+
+It contains the type of build messages which we are going to commit. Some examples of the different types are:
+
+<br />
+
+- -feat - A new feature
+- -fix - A bug fix
+- -docs - Changes in documentation
+- -style - Style changes, formatting , missing semicolons or whitespaces i.e. everything related to styling
+- -refactor - code changes that neither fixes a bug or adds a feature
+- -test - Add missing tests
+- -chore - changes the build process
+
+<br />
+
+#### **Body**
+
+<br />
+
+Contains a scope(optional) is provided in parentheses after header. It describes the part of code affected by the changes. Subject: The subject contains a short description of the applied changes.
+
+<br />
+
+#### **Footer(Optional)**
+
+<br />
+
+Use to reference issues affected by the code changes. eg "Fixes #20"
+
+e.g.
+
+`feat(ingredient): add ingredient to list button`
+
+`style(navbar): add color to active link`
+
+<br />
+
+In most cases you can leave out the details about how a change has been made as code is self-explanatory in most cases. Just focus on making clear the reasons why the respective change was made and the future contributors and developers(maybe your future self!) will thank you.
+
+<br />
+
+**Happy coding!**
+
+<br/>
+NOTE: You can read the complete article using this [**link**](https://rospy-ctrl.hashnode.dev/how-to-write-proper-git-message)
