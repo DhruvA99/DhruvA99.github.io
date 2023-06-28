@@ -25,7 +25,7 @@ export default defineConfig({
     syntaxHighlight: 'shiki',
   },
   integrations: [tailwind(), mdx({ drafts: true }), sitemap(), image(), prefetch()],
-  base: '/new-portfolio',
+  base: '/',
   site: "https://DhruvA99.github.io",
   // output: 'server',
   // adapter: vercel(),
