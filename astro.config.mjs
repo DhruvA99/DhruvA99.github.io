@@ -26,7 +26,7 @@ export default defineConfig({
   },
   integrations: [tailwind(), mdx({ drafts: true }), sitemap(), image(), prefetch()],
   base: '/',
-  site: "https://DhruvA99.github.io",
+  site: "https://rospyctrl.github.io",
   // output: 'server',
   // adapter: vercel(),
 });
