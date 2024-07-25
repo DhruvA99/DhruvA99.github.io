@@ -70,7 +70,8 @@ const socials = [
     },
     {
         name: 'GitHub',
-        url: 'https://github.com/rospyctrl',
+        // url: 'https://github.com/rospyctrl',
+        url: '',
         imgSrc: 'mdi:github',
     },
     {
